@@ -1,11 +1,7 @@
-// No include guards! Will cause multiple inclusion errors.
-#include <math.h>
+#ifndef FAST_TRIGO_H
+#define FAST_TRIGO_H
 
-float fast_sin(float x) {  // ERROR: Function defined inside .h
-    return sinf(x);
-}
+float fast_sin(float x);  // Dichiarazione della funzione
+float fast_cos(float x);  // Dichiarazione della funzione
 
-float fast_cos(float x) {  // ERROR: Function defined inside .h
-    return cosf(x);
-}
-
+#endif // FAST_TRIGO_H
